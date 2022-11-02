@@ -1,0 +1,188 @@
+body{
+    margin:0;
+    background: 0;
+    background-image: url(background.png);
+    font-family:sans-serif;
+
+}
+   
+   
+
+.header{
+    width:100%;
+    height:100vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position:center;
+    padding:0 7%;
+    position: relative;
+}
+nav{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px 0 2px;
+    
+}
+nav ul li{
+    display: inline-block;
+     list-style:none;
+     margin:2px 70px;
+     
+}
+.logo{
+    width:160px;
+    cursor:pointer;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:17px;
+    letter-spacing:1px;
+
+}
+nav ul li a:hover{
+    color:red;
+}
+
+.textbox{
+    margin-top:14%;
+    font-size:22px;
+}
+
+span{
+    color:white;
+    font-size:65px;
+    font: weight 600px;
+    line-height:100px;
+    margin-bottom:10px;
+}
+h4{
+    color:red;
+    
+}
+.textbox .btn{
+    outline:none;
+    border:none;
+    font-size:16px;
+    margin-top:30px;
+    background-color:red;
+    color:white;
+    padding:14px 40px;
+    cursor:pointer;
+}
+
+.section{
+    width:100%;
+    min-height:100vh;
+    background-color:#ddd;
+}
+.container{
+    width:80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+.content.section{
+    float:left;
+    width:55%;
+}
+
+
+.Signupbox{
+    width:360px;
+    height:720px;
+    margin:auto;
+    background-color:white;
+    border-radius:3px;
+}
+
+
+.loginbox{
+    width:360px;
+    height:490px;
+    margin-top:8%;
+    margin-left:35%;
+    background-color:white;
+    border: radius 3px;
+
+
+}
+
+.Resetbox{
+    width:350px;
+    height:250px;
+    margin-top:15%;
+    margin-left:35%;
+    background-color:white;
+    border: radius 3px;
+
+}
+h3{
+    text-align: center;
+  
+
+}
+
+h1{
+ text-align: center;
+ padding-top:15px;
+ color:black;
+ 
+
+ }
+ form{
+    width:300px;
+    margin-left: 20px;
+ }
+
+ form label{
+    display: flex;
+    margin-top:20px;
+    font-size:18px;
+ }
+
+ form input{
+    width:100%;
+    padding:7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius:6px;
+    outline:none;
+    margin-top:6px;
+
+ }
+
+input[type="button"]{
+    width:320px;
+    height:35px;
+    margin-top:20px;
+    border:none;
+    background-color:#49c1a2;
+    color:white;
+    font-size:18px;
+}
+
+.para-2{
+    text-align: center;
+    color:black;
+    font-size:15px;
+    margin-top:25px;
+    
+
+
+}
+.para-2 a{
+    color: aqua;
+    
+
+}
+
+
+
+
+
+
+
